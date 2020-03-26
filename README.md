@@ -187,6 +187,14 @@ It will ask you to press `Enter` to start recording, and `Ctrl-C` to stop, and w
 - `03.mp3` and `03.mp4`,
 - etc.
 
+If you stop the script and want to relaunch it, but already have a serie
+of `01`, `02`, `03`... files, then you can add the next counter at the end of
+the parameter list:
+
+```bash
+perl record_videos_in_a_row.pl 1820 720 1920 0 4
+```
+
  
 ## Mixing audio and video
 
