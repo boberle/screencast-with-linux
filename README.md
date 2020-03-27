@@ -55,7 +55,7 @@ I have written the program `drawframe` to draw a (by default red) frame around a
 To run `drawframe`:
 
 ```bash
-drawframe 720p
+./drawframe 720p
 ```
 
 if you want to record an area of 1280x720 pixels at x- and y-offset of 100
@@ -65,7 +65,7 @@ You can also specify a custom area and a custom offset (for example a
 800 by 660-pixel area, at x- and y-offet 50 and 50):
 
 ```bash
-drawframe 800x600+50+50
+./drawframe 800x600+50+50
 ```
 
 Use the `-w` option to set the width (thickness) of the frame.
